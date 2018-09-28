@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ ! -f ./crt1.o ]; then
+	cp /home/developer/RPI3_DEV/sysroot/usr/lib/arm-linux-gnueabihf/crt* .
+fi
+$0.real "$@"
