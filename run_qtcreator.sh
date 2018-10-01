@@ -8,4 +8,4 @@ docker run -it -e DISPLAY=$DISPLAY \
            -v /tmp/.X11-unix:/tmp/.X11-unix \
            -v $HOME/.Xauthority:/home/developer/.Xauthority \
            -v rpi3_sysroot:/home/developer/RPI3_DEV/sysroot \
-           --net=host db3718682b09 qtcreator
+           --net=host rpi3-prothese qtcreator
